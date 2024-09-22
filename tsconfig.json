@@ -24,7 +24,7 @@
       "@_templates/*": ["./src/templates/*"],
       "@_utils/*": ["./src/utils/*"],
       "@_types/*": ["./src/types/*"]
-      // alias path 
+      // alias path
     },
 
     /* Linting */
