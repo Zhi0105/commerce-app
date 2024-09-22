@@ -6,6 +6,7 @@ import { RouteT } from "@_src/types/types";
 import { LoginScreen } from "@_src/components/Screen/LoginScreen";
 import ErrorScreen from "@_src/components/Screen/ErrorScreen";
 import RegisterScreen from "@_src/components/Screen/RegisterScreen";
+import ServicesScreen from "@_src/components/Screen/ServicesScreen";
 
 export const RouteList = () => {
   const location = useLocation();
@@ -15,6 +16,7 @@ export const RouteList = () => {
     { path: "/*", element: <ErrorScreen />, protected: false },
     { path: "/login", element: <LoginScreen />, protected: false },
     { path: "/register", element: <RegisterScreen />, protected: false },
+    { path: "/services", element: <ServicesScreen />, protected: false },
   ];
 
   return (
