@@ -11,16 +11,16 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="absolute top-0 flex items-center justify-between w-full h-2 p-10 bg-neutral-200">
+    <div className="absolute top-0 flex items-center justify-between w-full h-2 p-10">
       <div className="flex w-full gap-7">
         <Link to="/services">
           <p className="text-blue-600 hover:text-blue-500">Services</p>
         </Link>
-        <Link to="/about">
+        <Link to="/salons">
           <p className="text-blue-600 hover:text-blue-500">Salons</p>
         </Link>
-        <Link to="/profile">
-          <p className="text-blue-600 hover:text-blue-500">Barbers</p>
+        <Link to="/barbershops">
+          <p className="text-blue-600 hover:text-blue-500">Barbershops</p>
         </Link>
       </div>
       <div className="grid w-full place-content-center">
