@@ -16,7 +16,7 @@ const UserButton = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative hidden sm:block">
       <div
         onClick={handleClick}
         className="grid w-32 mb-2 font-bold text-blue-500 border-2 border-blue-500 rounded-full cursor-pointer h-9 place-content-center"
